@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheets/style_home.css">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Subha:home</title>
+    <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Playfair+Display&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');/*title-text*/
+    @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');/*nav bar items*/
+        body
+        {
+            background-color: rgb(255,255,255);
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+  <nav id=header-nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+      <a href="index.html" class="navbar-brand">
+        <h1 class="tagline">Subh</h1>
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#hamburger">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="hamburger">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Men</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Women</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Kids</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Cart</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Login</a></li>
+      </ul>
+      </div>    
+    </nav> 
+    <img src="./img/home wall.jpg" style="width: 100%;">
+<!--Manual Slider-->
+    <div>
+        <p><h2 class="title">Our collections</h2></p>
+    </div>
+
+    <div class="w3-content w3-display-container">
+      <a href="./party collections.html" target="_blank">
+        <img src="./img/a4.jpeg" alt="party collections" class="mySlides1">
+      </a>
+      <a href="./ethnic  collections.html" target="_blank">
+        <img src="./img/a5.jpeg" alt="ethnic collections" class="mySlides1">
+      </a>
+        <a href="./hindu wedding.html" target="_blank">
+            <img src="./img/a1.jpeg" alt="Hindu Wedding Collctions" class="mySlides1">
+        </a>
+        <a href="./islamic wedding.html" target="_blank">
+            <img src="./img/a2.jpeg" alt="Islamic Weddiing Collections" class="mySlides1">
+        </a>
+        <a href="christian wedding.html" target="_blank">
+            <img src="./img/a3.jpeg" alt="Christian Wedding Collections" class="mySlides1">
+        </a>
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<h2 class="title">Trending</h2>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4" id="bottom-pad">
+      <img src="./img/home-trend 1.jpg">
+    </div>
+    <div class="col-md-4" id="bottom-pad">
+      <img src="./img/home-trend 6.webp">
+    </div>
+    <div class="col-md-4" id="buttom-pad">
+      <img src="./img/home-trend 2.jpg">
+    </div>
+    <div class="col-md-4">
+      <img src="./img/home-trend 5.webp">
+    </div>
+    <div class="col-md-4">
+      <img src="./img/home-trend 3.jpg">
+    </div>
+    <div class="col-md-4">
+      <img src="./img/home-trend 4.webp">
+    </div>
+  </div>
+</div>
+<h2 class="title">Trending accesories</h2>
+<div class="container-fluid">
+  <div class="row">
+    <div  class="col-md-12">
+      <div class="col-md-6">
+        <div class="col-md-4">
+          image here
+        </div>
+        <div class="col-md-4">
+          image here
+        </div>
+        <div class="col-md-4">
+          immage here
+        </div>
+      </div>
+      <div class="col-md-6">
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="col-md-6">
+        image here
+      </div>
+        <div class="col-md-6">
+          <div class="col-md-6">
+            <div class="col-md-12">
+              image here
+            </div>
+            <div class="col-md-12">
+              image here
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="col-md-12">
+              image here
+            </div>
+            <div class="col-md-12">
+              image here
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Auto immage slider-->
+<script src="./javascript/script_home.js"></script>
+<h3 class="title">With you in the monents...</h3>
+
+<div class="w3-content w3-section" style="max-width:80%">
+  <img class="mySlides" src="./img/L1.jpg" style="width:100%">
+  <img class="mySlides" src="./img/L2.jpg" style="width:100%">
+  <img class="mySlides" src="./img/L3.jpg" style="width:100%">
+  <img class="mySlides" src="./img/L4.jpg" style="width:100%">
+  <img class="mySlides" src="./img/L5.jpg" style="width:100%">
+  <img class="mySlides" src="./img/L6.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+myIndex++;
+  if (myIndex >x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12" id="back">
+      <h1 class="footer">Subh
+      <br>Celebrating moments...</h1>
+      <a href="tel: +918617882389"><img src="./img/phone.png"></a>
+      <a href="mailto:soumalyabhattacharya6@gmail.com"><img src="./img/email.png"></a>
+      <h5 style="text-align:right;  color: rgba(255,255,255,0.4);">Designed by- SB creations</h5>
+    </div>
+  </div>
+</div>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+*
+{
+	box-sizing: border-box;
+}
+#header-nav
+{
+	background-color: rgb(144,12,25);
+    border-radius: 0;
+    border: 0;
+}
+
+#title-image
+{
+	display: block;
+	width: 100%;
+}
+.tagline{
+    display: block;
+    justify-content: center;
+    align-items: center;
+   font-family: 'Kaushan Script', cursive;
+    margin-bottom: 1.7%;
+    line-height: 60%;
+    padding-top: 6%;
+    /*color: #AA8531 ;*/
+    color: rgb(252,191,7);
+    text-align: center;
+}
+.navbar-custom
+{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+}
+li > a:link
+{
+	color: white;
+	
+}
+li > a:hover
+{
+	color: rgb(245,198,99);
+	cursor: pointer;
+}
+li > a:visited
+{
+	color: white;
+}
+
+h1
+{
+	color: #AA8531;
+	font-size: 50px;
+	font-family: 'Pinyon Script', cursive;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#pics
+{
+	width:80%;
+	height: 80%;
+	padding: auto;
+}
+h3
+{
+	color: black;
+	font-size: 20px;
+	font-weight: 50;
+	padding-left: 14%;
+	font-family: 'Philosopher', sans-serif;
+}
+#price
+{
+	color: black;
+	font-size: 20px;
+	font-weight: 80;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-left: 30%;
+}
+/*.col-md-3
+{
+	border: 2px solid black;
+}*/
+.col-md-12
+{
+	background-image: url("D:/Subho-V2.0/img/background.jpg");
+}
+a:link
+{
+	color: white;
+}
+a:hover
+{
+	color: rgb(245,198,99);
+	cursor: pointer;
+}
+a:visited
+{
+	color: white;
+}
+

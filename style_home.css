@@ -23,6 +23,9 @@ body
     font-family: 'Philosopher', sans-serif;
     font-size: 18px;
     font-weight: 100;
+    background-color: rgb(144,12,25);
+    border-radius: 0;
+    border: 0;
 }
 .mySlides 
 {
@@ -96,7 +99,4 @@ body
 {
     color: rgb(252,191,7);
 }
-/*.col-1,.col-sm-1,.col-sm-2,.col-2,.col-sm-6,.col-5,.col-sm-0,.col-6,.container
-{
-    border: 2px solid white;
-}*/
+

@@ -24,7 +24,7 @@
 
 <body>
 
-  <nav id=header-nav class="navbar navbar-expand-sm navbar-dark navbar-custom fixed-top">
+  <!--<nav id=header-nav class="navbar navbar-expand-sm navbar-dark navbar-custom fixed-top">
       <a href="index.html" class="navbar-brand">
         <h1 class="tagline">Subh</h1>
       </a>
@@ -45,9 +45,43 @@
           <a href="#" class="nav-link">Login</a></li>
       </ul>
       </div>    
-    </nav>
+    </nav>-->
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top navbar-custom" id="header-nav">
+      <div class="container-fluid">
+    <div class="row">
+      <div class="col-1">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      </div>
+      <div class=" offset-1 col-2 col-sm-2">
+        <a class="navbar-brand mr-auto order-last" href="#"><h2 class="tagline">Subh</h2></a>
+      </div>
+      <br>
+      <div class="collapse navbar-collapse offset-1 col-sm-6" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-list fa-lg"></span>Menu</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user fa-lg"></span> Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-cart-plus fa-lg"></i> Cart</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class=" col-5 col-sm-6">
+          <ul class="navbar-nav" style="align-content: flex-end;";>
+            <li class="input-group margin-bottom-sm">
+              <span class="input-group-addon"><i class="fa fa-search fa-lg"></i></span>
+              <input class="form-control" type="text" placeholder="Search">
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
     <header>
-    <img src="./img/home wall.jpg" style="width: 100%;">
+    <img src="./img/home wall.jpg" id="title-image">
     </header>
 <!--Manual Slider-->
     <div>
